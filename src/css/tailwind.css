@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .h1 {
+        @apply text-3xl
+    }
+
+    .hero-container {
+        @apply relative w-[100%] h-screen overflow-hidden  top-0
+    }
+
+    .menu-item {
+        @apply text-gray-800 hover:text-sky-700
+    }
+
+    .video-background {
+        @apply h-screen w-screen object-cover
+    }
+
+    .overlay-text {
+        @apply absolute top-[50%] left-0 text-center text-white bg-gray-500/60 backdrop-blur-md px-8 py-8 rounded-lg shadow-2xl
+    }
+
+}
