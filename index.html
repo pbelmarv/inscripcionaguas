@@ -111,7 +111,9 @@
                             <a href="#estudio" class="menu-item">Estudio</a>
                             <a href="#servicios" class="menu-item">Servicios</a>
                             <a href="#abogados" class="menu-item">Abogados</a>
-                            <a href="#" class="menu-item">Área de Práctica</a>
+                            <a href="#area-practica" class="menu-item"
+                                >Área de Práctica</a
+                            >
                         </div>
                         <div class="md:hidden flex items-center">
                             <button
@@ -160,7 +162,7 @@
                         >Abogados</a
                     >
                     <a
-                        href="#"
+                        href="#area-practica"
                         class="block px-4 py-2 text-[#2b3c56] hover:bg-gray-200"
                         >Área de Prácticas</a
                     >
@@ -380,15 +382,31 @@
                             Materia ambiental
                         </h3>
                         <ul class="text-left list-disc marker:text-[#bf9258]">
-                            <li class="pb-2 text-justify">Estudios de Impacto Ambiental</li>
-                            <li class="pb-2 text-justify">Declaraciones de Impacto Ambiental.</li>
-                            <li class="pb-2 text-justify">Análisis y Consultas de Pertinencia.</li>
-                            <li class="pb-2 text-justify">Tramitación ambiental de proyectos en el SEIA.</li>
+                            <li class="pb-2 text-justify">
+                                Estudios de Impacto Ambiental
+                            </li>
+                            <li class="pb-2 text-justify">
+                                Declaraciones de Impacto Ambiental.
+                            </li>
+                            <li class="pb-2 text-justify">
+                                Análisis y Consultas de Pertinencia.
+                            </li>
+                            <li class="pb-2 text-justify">
+                                Tramitación ambiental de proyectos en el SEIA.
+                            </li>
                             <li class="pb-2 text-justify">Líneas de Base.</li>
-                            <li class="pb-2 text-justify">Permisos Ambientales Sectoriales.</li>
-                            <li class="pb-2 text-justify">Evaluación de Impactos.</li>
-                            <li class="pb-2 text-justify">Factibilidad ambiental de proyectos.</li>
-                            <li class="pb-2 text-justify">Litigación ante los Tribunales ambientales.</li>
+                            <li class="pb-2 text-justify">
+                                Permisos Ambientales Sectoriales.
+                            </li>
+                            <li class="pb-2 text-justify">
+                                Evaluación de Impactos.
+                            </li>
+                            <li class="pb-2 text-justify">
+                                Factibilidad ambiental de proyectos.
+                            </li>
+                            <li class="pb-2 text-justify">
+                                Litigación ante los Tribunales ambientales.
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -401,6 +419,274 @@
                         class="mb-4"
                         alt=""
                     />
+                </div>
+            </div>
+
+            <div
+                class="flex justify-end gap-4 space-x-2 max-w-[85%] xl:max-w-[1220px] mx-auto"
+            >
+                <button
+                    class="carousel-prev text-[#bf9258] hover:text-[#2b3c56]"
+                    onclick="prevSlide()"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="48"
+                        height="48"
+                        fill="currentColor"
+                    >
+                        <path
+                            d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM12 11H16V13H12V16L8 12L12 8V11Z"
+                        ></path>
+                    </svg>
+                </button>
+                <button
+                    class="carousel-next text-[#bf9258] hover:text-[#2b3c56]"
+                    onclick="nextSlide()"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="48"
+                        height="48"
+                        fill="currentColor"
+                    >
+                        <path
+                            d="M12 11V8L16 12L12 16V13H8V11H12ZM12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20Z"
+                        ></path>
+                    </svg>
+                </button>
+            </div>
+
+            <div
+                class="relative max-w-[85%] xl:max-w-[1220px] mx-auto h-auto overflow-hidden"
+            >
+                <div
+                    id="slider"
+                    class="flex transition-transform duration-500 ease-in-out"
+                >
+                    <!-- Item 1 -->
+                    <div class="min-w-full flex items-start justify-start">
+                        <div class="p-6 w-[90%]">
+                            <div class="">
+                                <h3
+                                    class="text-left text-xl text-[#2b3c56] pb-6"
+                                >
+                                    Derechos de Aguas
+                                </h3>
+                                <ul
+                                    class="text-left list-disc marker:text-[#bf9258]"
+                                >
+                                    <li class="pb-2 text-justify">
+                                        Inscripción de derechos de
+                                        aprovechamientos de aguas ante la DGA y
+                                        Registro de Propiedad.
+                                    </li>
+                                    <li class="pb-2 text-justify">
+                                        Concesión, reconocimiento y
+                                        formalización de derechos de
+                                        aprovechamiento de aguas.
+                                    </li>
+                                    <li class="pb-2 text-justify">
+                                        Ejercicio de derechos, gestión y
+                                        distribución de aguas.
+                                    </li>
+                                    <li class="pb-2 text-justify">
+                                        Tramitaciones administrativas ante la
+                                        Dirección General de Aguas y otros
+                                        órganos sectoriales vinculados.
+                                    </li>
+                                    <li class="pb-2">
+                                        Conflictos y defensa de derechos de
+                                        aprovechamiento de aguas.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="min-w-full flex items-start justify-start">
+                        <div class="p-6 w-[90%]">
+                            <div class="text-left">
+                                <h3 class="text-xl text-[#2b3c56] pb-6">
+                                    Energía
+                                </h3>
+                                <ul
+                                    class="text-left list-disc marker:text-[#bf9258]"
+                                >
+                                    <li class="pb-2 text-justify">
+                                        Concesiones eléctricas.
+                                    </li>
+                                    <li class="pb-2 text-justify">
+                                        Consultorías e informes.
+                                    </li>
+                                    <li class="pb-2 text-justify">
+                                        Discrepancias y juicios.
+                                    </li>
+                                    <li class="pb-2 text-justify">
+                                        Contratos de suministro.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="min-w-full flex items-start justify-start">
+                        <div class="p-6 w-[90%]">
+                            <div class="text-left">
+                                <h3 class="text-xl text-[#2b3c56] pb-6">
+                                    Minero
+                                </h3>
+                                <ul
+                                    class="text-left list-disc marker:text-[#bf9258]"
+                                >
+                                    <li class="pb-2 text-justify">
+                                        Concesiones mineras.
+                                    </li>
+                                    <li class="pb-2 text-justify">
+                                        Consultorías e informes.
+                                    </li>
+                                    <li class="pb-2 text-justify">
+                                        Servidumbres.
+                                    </li>
+                                    <li class="pb-2 text-justify">
+                                        Contratos.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="min-w-full flex items-start justify-start">
+                        <div class="p-6 w-[90%]">
+                            <div class="text-left">
+                                <h3 class="text-xl text-[#2b3c56] pb-6">
+                                    Litigación administrativa
+                                </h3>
+                                <ul
+                                    class="text-left list-disc marker:text-[#bf9258]"
+                                >
+                                    <li class="pb-2 text-justify">
+                                        Acciones y recursos (Contraloría General
+                                        de la República y órganos
+                                        administrativos).
+                                    </li>
+                                    <li class="pb-2 text-justify">Nulidad.</li>
+                                    <li class="pb-2 text-justify">
+                                        Responsabilidad.
+                                    </li>
+                                    <li class="pb-2 text-justify">
+                                        Tribunales ordinarios y especiales.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="min-w-full flex items-start justify-start">
+                        <div class="p-6 w-[90%]">
+                            <div class="text-left">
+                                <h3 class="text-xl text-[#2b3c56] pb-6">
+                                    Litigación judicial
+                                </h3>
+                                <ul
+                                    class="text-left list-disc marker:text-[#bf9258]"
+                                >
+                                    <li class="pb-2 text-justify">
+                                        Litigios ante la jurisdicción civil:
+                                        Nuestra práctica se ha enfocado
+                                        principalmente en litigios entre
+                                        privados, en reclamaciones
+                                        extracontractuales y contractuales, con
+                                        especial énfasis en disputas derivadas
+                                        de o relacionadas con contratos entre
+                                        otros.
+                                    </li>
+                                </ul>
+                                <ul
+                                    class="text-left list-disc marker:text-[#bf9258]"
+                                >
+                                    <li class="pb-2 text-justify">
+                                        Litigios ante la jurisdicción de lo
+                                        contencioso administrativo:
+                                        Representamos a clientes en la
+                                        protección de sus intereses en el marco
+                                        de procedimientos administrativos ante
+                                        autoridades, así como en el ejercicio de
+                                        medios de control (acciones de nulidad,
+                                        nulidad y restablecimiento del derecho,
+                                        reparación directa, controversias
+                                        contractuales, repetición, acciones
+                                        populares, acciones de grupo, y acciones
+                                        de cumplimiento) ante la jurisdicción de
+                                        lo contencioso administrativo.
+                                    </li>
+                                </ul>
+                                <ul
+                                    class="text-left list-disc marker:text-[#bf9258]"
+                                >
+                                    <li class="pb-2 text-justify">
+                                        Acciones constitucionales: Representamos
+                                        a clientes en acciones de
+                                        inconstitucionalidad, populares, de
+                                        grupo de cumplimiento, y tutelas. En el
+                                        marco de las acciones populares, nuestra
+                                        práctica se ha enfocado en la defensa en
+                                        contra de reclamaciones de todo tipo,
+                                        relacionadas con derechos colectivos,
+                                        incluyendo los derechos colectivos al
+                                        medioambiente y a la salud, entre otros.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 6 -->
+                    <div class="min-w-full flex items-start justify-start">
+                        <div class="p-6 w-[90%]">
+                            <h3 class="text-xl text-[#2b3c56] pb-6">
+                                Materia ambiental
+                            </h3>
+                            <ul
+                                class="text-left list-disc marker:text-[#bf9258]"
+                            >
+                                <li class="pb-2 text-justify">
+                                    Estudios de Impacto Ambiental
+                                </li>
+                                <li class="pb-2 text-justify">
+                                    Declaraciones de Impacto Ambiental.
+                                </li>
+                                <li class="pb-2 text-justify">
+                                    Análisis y Consultas de Pertinencia.
+                                </li>
+                                <li class="pb-2 text-justify">
+                                    Tramitación ambiental de proyectos en el
+                                    SEIA.
+                                </li>
+                                <li class="pb-2 text-justify">
+                                    Líneas de Base.
+                                </li>
+                                <li class="pb-2 text-justify">
+                                    Permisos Ambientales Sectoriales.
+                                </li>
+                                <li class="pb-2 text-justify">
+                                    Evaluación de Impactos.
+                                </li>
+                                <li class="pb-2 text-justify">
+                                    Factibilidad ambiental de proyectos.
+                                </li>
+                                <li class="pb-2 text-justify">
+                                    Litigación ante los Tribunales ambientales.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -983,6 +1269,49 @@
             </div>
         </section>
 
+        <section id="area-practica">
+            <div
+                class="container px-5 py-24 max-w-[95%] xl:max-w-[1260px] mx-auto"
+            >
+                <div class="flex flex-col w-full mb-20">
+                    <h2
+                        class="text-4xl text-[#2b3c56] font-normal border-b-4 border-[#bf9258]"
+                    >
+                        Área de Práctica
+                    </h2>
+                </div>
+
+                <div
+                    class="max-w-2xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden"
+                >
+                    <div class="flex justify-around border-b">
+                        <button
+                            class="tab-button py-2 px-4 text-gray-700 hover:bg-gray-200"
+                        >
+                            Tab 1
+                        </button>
+                        <button
+                            class="tab-button py-2 px-4 text-gray-700 hover:bg-gray-200"
+                        >
+                            Tab 2
+                        </button>
+                        <button
+                            class="tab-button py-2 px-4 text-gray-700 hover:bg-gray-200"
+                        >
+                            Tab 3
+                        </button>
+                    </div>
+                    <div class="tab-content p-6">
+                        <div class="tab-panel">
+                            Contenido de Tab 1<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                        </div>
+                        <div class="tab-panel hidden">Contenido de Tab 2</div>
+                        <div class="tab-panel hidden">Contenido de Tab 3</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <footer class="bg-[#2b3c56] text-white py-8">
             <div class="container mx-auto px-4">
                 <div
@@ -1018,9 +1347,23 @@
                             </li>
                             <li class="mb-2">
                                 <a
+                                    href="#servicios"
+                                    class="text-gray-400 hover:text-white"
+                                    >Servicios</a
+                                >
+                            </li>
+                            <li class="mb-2">
+                                <a
                                     href="#abogados"
                                     class="text-gray-400 hover:text-white"
                                     >Abogados</a
+                                >
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="#area-practica"
+                                    class="text-gray-400 hover:text-white"
+                                    >Área de Práctica</a
                                 >
                             </li>
                         </ul>
@@ -1057,6 +1400,66 @@
                     const menu = document.getElementById("mobile-menu");
                     menu.classList.toggle("hidden");
                 });
+
+            document.addEventListener("DOMContentLoaded", function () {
+                const tabButtons = document.querySelectorAll(".tab-button");
+                const tabPanels = document.querySelectorAll(".tab-panel");
+
+                tabButtons.forEach((button, index) => {
+                    button.addEventListener("click", () => {
+                        tabPanels.forEach((panel) =>
+                            panel.classList.add("hidden")
+                        );
+                        tabPanels[index].classList.remove("hidden");
+
+                        tabButtons.forEach((btn) =>
+                            btn.classList.remove(
+                                "text-blue-500",
+                                "border-blue-500"
+                            )
+                        );
+                        button.classList.add(
+                            "text-blue-500",
+                            "border-blue-500"
+                        );
+                    });
+                });
+                6;
+
+                // Inicializar la primera tab como activa
+                tabButtons[0].classList.add("text-blue-500", "border-blue-500");
+                tabPanels[0].classList.remove("hidden");
+            });
+
+            // Slider de servicios
+
+            const slider = document.getElementById("slider");
+            let currentIndex = 0;
+
+            function nextSlide() {
+                if (currentIndex < slider.children.length - 1) {
+                    currentIndex++;
+                } else {
+                    currentIndex = 0; // Reinicia si es el último
+                }
+                updateSlider();
+            }
+
+            function prevSlide() {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                } else {
+                    currentIndex = slider.children.length - 1; // Va al último si es el primero
+                }
+                updateSlider();
+            }
+
+            function updateSlider() {
+                const width = slider.children[0].getBoundingClientRect().width;
+                slider.style.transform = `translateX(-${
+                    width * currentIndex
+                }px)`;
+            }
         </script>
     </body>
 </html>
