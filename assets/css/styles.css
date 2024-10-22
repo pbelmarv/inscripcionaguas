@@ -1319,6 +1319,10 @@ video {
 }
 
 @media (min-width: 320px) {
+  .xs\:top-5 {
+    top: 1.25rem;
+  }
+
   .group:hover .xs\:group-hover\:translate-y-\[53\%\] {
     --tw-translate-y: 53%;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1338,6 +1342,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:top-10 {
+    top: 2.5rem;
+  }
+
   .md\:flex {
     display: flex;
   }
