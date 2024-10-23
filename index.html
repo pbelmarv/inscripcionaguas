@@ -90,7 +90,7 @@
         />
         <meta name="theme-color" content="#ffffff" />
     </head>
-    <body>
+    <body class="bg-slate-200">
         <header class="sticky top-0 z-50 sticky">
             <!-- Navbar Sticky -->
             <nav
@@ -183,8 +183,7 @@
                 <div>
                     <p class="text-xl lg:text-3xl text-left">
                         Estudio jurídico especializado en derecho de aguas,
-                        recursos naturales, medio ambiente y litigación
-                        administrativa y judicial.
+                        recursos naturales, medio ambiente.
                     </p>
                 </div>
             </div>
@@ -198,7 +197,7 @@
                     <div class="p-4">
                         <div>
                             <h2
-                                class="text-4xl text-[#2b3c56] font-normal border-b-4 border-[#bf9258]"
+                                class="text-4xl text-[#2b3c56] font-normal border-b-4 border-[#92C730]"
                             >
                                 Estudio
                             </h2>
@@ -224,8 +223,11 @@
                             país.
                         </p>
                     </div>
-                    <div class="p-4 rounded-xl shadow-xl">
-                        <img src="./assets/images/team.png" alt="" />
+                    <div class="p-4 rounded-xl">
+                        <img
+                            src="./assets/images/minimalist-office-interior-design.jpg"
+                            alt=""
+                        />
                     </div>
                 </div>
             </div>
@@ -238,7 +240,7 @@
                 <div class="p-4">
                     <div>
                         <h2
-                            class="text-4xl text-[#2b3c56] font-normal border-b-4 border-[#bf9258]"
+                            class="text-4xl text-[#2b3c56] font-normal border-b-4 border-[#92C730]"
                         >
                             Servicios
                         </h2>
@@ -250,7 +252,7 @@
                 class="flex justify-end gap-4 space-x-2 max-w-[85%] xl:max-w-[1220px] mx-auto"
             >
                 <button
-                    class="carousel-prev text-[#bf9258] hover:text-[#2b3c56]"
+                    class="carousel-prev text-[#92C730] hover:text-[#2b3c56]"
                     onclick="prevSlide()"
                 >
                     <svg
@@ -266,7 +268,7 @@
                     </svg>
                 </button>
                 <button
-                    class="carousel-next text-[#bf9258] hover:text-[#2b3c56]"
+                    class="carousel-next text-[#92C730] hover:text-[#2b3c56]"
                     onclick="nextSlide()"
                 >
                     <svg
@@ -293,39 +295,60 @@
                     <!-- Item 1 -->
                     <div class="min-w-full flex items-start justify-start">
                         <div class="p-6 w-[90%]">
-                            <div class="">
-                                <h3
-                                    class="text-left text-xl xl:text-3xl text-[#2b3c56] pb-6"
+                            <div
+                                class="grid grid-cols-1 xl:grid-cols-2 gap-4 p-4"
+                            >
+                                <!-- Caja 1 -->
+                                <div
+                                    class="col-span-1 xl:col-span-2 rounded-lg p-4 relative"
                                 >
-                                    Derechos de Aguas
-                                </h3>
-                                <ul
-                                    class="text-left list-disc marker:text-[#bf9258]"
-                                >
-                                    <li class="pb-2 text-justify">
-                                        Inscripción de derechos de
-                                        aprovechamientos de aguas ante la DGA y
-                                        Registro de Propiedad.
-                                    </li>
-                                    <li class="pb-2 text-justify">
-                                        Concesión, reconocimiento y
-                                        formalización de derechos de
-                                        aprovechamiento de aguas.
-                                    </li>
-                                    <li class="pb-2 text-justify">
-                                        Ejercicio de derechos, gestión y
-                                        distribución de aguas.
-                                    </li>
-                                    <li class="pb-2 text-justify">
-                                        Tramitaciones administrativas ante la
-                                        Dirección General de Aguas y otros
-                                        órganos sectoriales vinculados.
-                                    </li>
-                                    <li class="pb-2">
-                                        Conflictos y defensa de derechos de
-                                        aprovechamiento de aguas.
-                                    </li>
-                                </ul>
+                                    <h3
+                                        class="text-xl xl:text-3xl text-[#2b3c56] text-center font-bold uppercase pb-6"
+                                    >
+                                        Derechos de Aguas
+                                    </h3>
+                                </div>
+
+                                <!-- Caja 2 -->
+                                <div class="rounded-lg p-4 pl-4 relative">
+                                    <ul
+                                        class="text-left list-disc marker:text-[#92C730]"
+                                    >
+                                        <li class="pb-2 text-justify">
+                                            Inscripción de derechos de
+                                            aprovechamientos de aguas ante la
+                                            DGA y Registro de Propiedad.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Concesión, reconocimiento y
+                                            formalización de derechos de
+                                            aprovechamiento de aguas.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Ejercicio de derechos, gestión y
+                                            distribución de aguas.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Tramitaciones administrativas ante
+                                            la Dirección General de Aguas y
+                                            otros órganos sectoriales
+                                            vinculados.
+                                        </li>
+                                        <li class="pb-2">
+                                            Conflictos y defensa de derechos de
+                                            aprovechamiento de aguas.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Caja 3 -->
+                                <div class="p-4 relative">
+                                    <img
+                                        src="./assets/images/beautiful-japanese-forest-scene.jpg"
+                                        class="rounded-lg"
+                                        alt=""
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -333,28 +356,48 @@
                     <!-- Item 2 -->
                     <div class="min-w-full flex items-start justify-start">
                         <div class="p-6 w-[90%]">
-                            <div class="text-left">
-                                <h3
-                                    class="text-xl xl:text-3xl text-[#2b3c56] pb-6"
+                            <div
+                                class="grid grid-cols-1 xl:grid-cols-2 gap-4 p-4"
+                            >
+                                <!-- Caja 1 -->
+                                <div
+                                    class="col-span-1 xl:col-span-2 rounded-lg p-4 relative"
                                 >
-                                    Energía
-                                </h3>
-                                <ul
-                                    class="text-left list-disc marker:text-[#bf9258]"
-                                >
-                                    <li class="pb-2 text-justify">
-                                        Concesiones eléctricas.
-                                    </li>
-                                    <li class="pb-2 text-justify">
-                                        Consultorías e informes.
-                                    </li>
-                                    <li class="pb-2 text-justify">
-                                        Discrepancias y juicios.
-                                    </li>
-                                    <li class="pb-2 text-justify">
-                                        Contratos de suministro.
-                                    </li>
-                                </ul>
+                                    <h3
+                                        class="text-xl xl:text-3xl text-[#2b3c56] text-center font-bold uppercase pb-6"
+                                    >
+                                        Energía
+                                    </h3>
+                                </div>
+
+                                <!-- Caja 2 -->
+                                <div class="rounded-lg p-4 pl-4 relative">
+                                    <ul
+                                        class="text-left list-disc marker:text-[#bf9258]"
+                                    >
+                                        <li class="pb-2 text-justify">
+                                            Concesiones eléctricas.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Consultorías e informes.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Discrepancias y juicios.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Contratos de suministro.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Caja 3 -->
+                                <div class="p-4 relative">
+                                    <img
+                                        src="./assets/images/house-view-wires-cloudy-cloudy-view.jpg"
+                                        class="rounded-lg shadow-xl"
+                                        alt=""
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -362,28 +405,48 @@
                     <!-- Item 3 -->
                     <div class="min-w-full flex items-start justify-start">
                         <div class="p-6 w-[90%]">
-                            <div class="text-left">
-                                <h3
-                                    class="text-xl xl:text-3xl text-[#2b3c56] pb-6"
+                            <div
+                                class="grid grid-cols-1 xl:grid-cols-2 gap-4 p-4"
+                            >
+                                <!-- Caja 1 -->
+                                <div
+                                    class="col-span-1 xl:col-span-2 rounded-lg p-4 relative"
                                 >
-                                    Minero
-                                </h3>
-                                <ul
-                                    class="text-left list-disc marker:text-[#bf9258]"
-                                >
-                                    <li class="pb-2 text-justify">
-                                        Concesiones mineras.
-                                    </li>
-                                    <li class="pb-2 text-justify">
-                                        Consultorías e informes.
-                                    </li>
-                                    <li class="pb-2 text-justify">
-                                        Servidumbres.
-                                    </li>
-                                    <li class="pb-2 text-justify">
-                                        Contratos.
-                                    </li>
-                                </ul>
+                                    <h3
+                                        class="text-xl xl:text-3xl text-[#2b3c56] text-center font-bold uppercase pb-6"
+                                    >
+                                        Minero
+                                    </h3>
+                                </div>
+
+                                <!-- Caja 2 -->
+                                <div class="rounded-lg p-4 pl-4 relative">
+                                    <ul
+                                        class="text-left list-disc marker:text-[#bf9258]"
+                                    >
+                                        <li class="pb-2 text-justify">
+                                            Concesiones mineras.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Consultorías e informes.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Servidumbres.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Contratos.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Caja 3 -->
+                                <div class="p-4 relative">
+                                    <img
+                                        src="./assets/images/heavy-machinery-used-construction-industry-engineering.jpg"
+                                        class="rounded-lg"
+                                        alt=""
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -391,28 +454,50 @@
                     <!-- Item 4 -->
                     <div class="min-w-full flex items-start justify-start">
                         <div class="p-6 w-[90%]">
-                            <div class="text-left">
-                                <h3
-                                    class="text-xl xl:text-3xl text-[#2b3c56] pb-6"
+                            <div
+                                class="grid grid-cols-1 xl:grid-cols-2 gap-4 p-4"
+                            >
+                                <!-- Caja 1 -->
+                                <div
+                                    class="col-span-1 xl:col-span-2 rounded-lg p-4 relative"
                                 >
-                                    Litigación administrativa
-                                </h3>
-                                <ul
-                                    class="text-left list-disc marker:text-[#bf9258]"
-                                >
-                                    <li class="pb-2 text-justify">
-                                        Acciones y recursos (Contraloría General
-                                        de la República y órganos
-                                        administrativos).
-                                    </li>
-                                    <li class="pb-2 text-justify">Nulidad.</li>
-                                    <li class="pb-2 text-justify">
-                                        Responsabilidad.
-                                    </li>
-                                    <li class="pb-2 text-justify">
-                                        Tribunales ordinarios y especiales.
-                                    </li>
-                                </ul>
+                                    <h3
+                                        class="text-xl xl:text-3xl text-[#2b3c56] text-center font-bold uppercase pb-6"
+                                    >
+                                        Litigación administrativa
+                                    </h3>
+                                </div>
+
+                                <!-- Caja 2 -->
+                                <div class="rounded-lg p-4 pl-4 relative">
+                                    <ul
+                                        class="text-left list-disc marker:text-[#bf9258]"
+                                    >
+                                        <li class="pb-2 text-justify">
+                                            Acciones y recursos (Contraloría
+                                            General de la República y órganos
+                                            administrativos).
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Nulidad.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Responsabilidad.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Tribunales ordinarios y especiales.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Caja 3 -->
+                                <div class="p-4 relative">
+                                    <img
+                                        src="./assets/images/350x600.png"
+                                        class="rounded-lg"
+                                        alt=""
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -420,61 +505,77 @@
                     <!-- Item 5 -->
                     <div class="min-w-full flex items-start justify-start">
                         <div class="p-6 w-[90%]">
-                            <div class="text-left">
-                                <h3
-                                    class="text-xl xl:text-3xl text-[#2b3c56] pb-6"
+                            <div
+                                class="grid grid-cols-1 xl:grid-cols-2 gap-4 p-4"
+                            >
+                                <!-- Caja 1 -->
+                                <div
+                                    class="col-span-1 xl:col-span-2 rounded-lg p-4 relative"
                                 >
-                                    Litigación judicial
-                                </h3>
-                                <ul
-                                    class="text-left list-disc marker:text-[#bf9258]"
-                                >
-                                    <li class="pb-2 text-justify">
-                                        Litigios ante la jurisdicción civil:
-                                        Nuestra práctica se ha enfocado
-                                        principalmente en litigios entre
-                                        privados, en reclamaciones
-                                        extracontractuales y contractuales, con
-                                        especial énfasis en disputas derivadas
-                                        de o relacionadas con contratos entre
-                                        otros.
-                                    </li>
-                                </ul>
-                                <ul
-                                    class="text-left list-disc marker:text-[#bf9258]"
-                                >
-                                    <li class="pb-2 text-justify">
-                                        Litigios ante la jurisdicción de lo
-                                        contencioso administrativo:
-                                        Representamos a clientes en la
-                                        protección de sus intereses en el marco
-                                        de procedimientos administrativos ante
-                                        autoridades, así como en el ejercicio de
-                                        medios de control (acciones de nulidad,
-                                        nulidad y restablecimiento del derecho,
-                                        reparación directa, controversias
-                                        contractuales, repetición, acciones
-                                        populares, acciones de grupo, y acciones
-                                        de cumplimiento) ante la jurisdicción de
-                                        lo contencioso administrativo.
-                                    </li>
-                                </ul>
-                                <ul
-                                    class="text-left list-disc marker:text-[#bf9258]"
-                                >
-                                    <li class="pb-2 text-justify">
-                                        Acciones constitucionales: Representamos
-                                        a clientes en acciones de
-                                        inconstitucionalidad, populares, de
-                                        grupo de cumplimiento, y tutelas. En el
-                                        marco de las acciones populares, nuestra
-                                        práctica se ha enfocado en la defensa en
-                                        contra de reclamaciones de todo tipo,
-                                        relacionadas con derechos colectivos,
-                                        incluyendo los derechos colectivos al
-                                        medioambiente y a la salud, entre otros.
-                                    </li>
-                                </ul>
+                                    <h3
+                                        class="text-xl xl:text-3xl text-[#2b3c56] text-center font-bold uppercase pb-6"
+                                    >
+                                        Litigación judicial
+                                    </h3>
+                                </div>
+
+                                <!-- Caja 2 -->
+                                <div class="rounded-lg p-4 pl-4 relative">
+                                    <ul
+                                        class="text-left list-disc marker:text-[#bf9258]"
+                                    >
+                                        <li class="pb-2 text-justify">
+                                            Litigios ante la jurisdicción civil:
+                                            Nuestra práctica se ha enfocado
+                                            principalmente en litigios entre
+                                            privados, en reclamaciones
+                                            extracontractuales y contractuales,
+                                            con especial énfasis en disputas
+                                            derivadas de o relacionadas con
+                                            contratos entre otros.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Litigios ante la jurisdicción de lo
+                                            contencioso administrativo:
+                                            Representamos a clientes en la
+                                            protección de sus intereses en el
+                                            marco de procedimientos
+                                            administrativos ante autoridades,
+                                            así como en el ejercicio de medios
+                                            de control (acciones de nulidad,
+                                            nulidad y restablecimiento del
+                                            derecho, reparación directa,
+                                            controversias contractuales,
+                                            repetición, acciones populares,
+                                            acciones de grupo, y acciones de
+                                            cumplimiento) ante la jurisdicción
+                                            de lo contencioso administrativo.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Acciones constitucionales:
+                                            Representamos a clientes en acciones
+                                            de inconstitucionalidad, populares,
+                                            de grupo de cumplimiento, y tutelas.
+                                            En el marco de las acciones
+                                            populares, nuestra práctica se ha
+                                            enfocado en la defensa en contra de
+                                            reclamaciones de todo tipo,
+                                            relacionadas con derechos
+                                            colectivos, incluyendo los derechos
+                                            colectivos al medioambiente y a la
+                                            salud, entre otros.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Caja 3 -->
+                                <div class="p-4 relative">
+                                    <img
+                                        src="./assets/images/350x600.png"
+                                        class="rounded-lg"
+                                        alt=""
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -482,41 +583,66 @@
                     <!-- Item 6 -->
                     <div class="min-w-full flex items-start justify-start">
                         <div class="p-6 w-[90%]">
-                            <h3 class="text-xl xl:text-3xl text-[#2b3c56] pb-6">
-                                Materia ambiental
-                            </h3>
-                            <ul
-                                class="text-left list-disc marker:text-[#bf9258]"
+                            <div
+                                class="grid grid-cols-1 xl:grid-cols-2 gap-4 p-4"
                             >
-                                <li class="pb-2 text-justify">
-                                    Estudios de Impacto Ambiental
-                                </li>
-                                <li class="pb-2 text-justify">
-                                    Declaraciones de Impacto Ambiental.
-                                </li>
-                                <li class="pb-2 text-justify">
-                                    Análisis y Consultas de Pertinencia.
-                                </li>
-                                <li class="pb-2 text-justify">
-                                    Tramitación ambiental de proyectos en el
-                                    SEIA.
-                                </li>
-                                <li class="pb-2 text-justify">
-                                    Líneas de Base.
-                                </li>
-                                <li class="pb-2 text-justify">
-                                    Permisos Ambientales Sectoriales.
-                                </li>
-                                <li class="pb-2 text-justify">
-                                    Evaluación de Impactos.
-                                </li>
-                                <li class="pb-2 text-justify">
-                                    Factibilidad ambiental de proyectos.
-                                </li>
-                                <li class="pb-2 text-justify">
-                                    Litigación ante los Tribunales ambientales.
-                                </li>
-                            </ul>
+                                <!-- Caja 1 -->
+                                <div
+                                    class="col-span-1 xl:col-span-2 rounded-lg p-4 relative"
+                                >
+                                    <h3
+                                        class="text-xl xl:text-3xl text-[#2b3c56] text-center font-bold uppercase pb-6"
+                                    >
+                                        Materia ambiental
+                                    </h3>
+                                </div>
+
+                                <!-- Caja 2 -->
+                                <div class="rounded-lg p-4 pl-4 relative">
+                                    <ul
+                                        class="text-left list-disc marker:text-[#bf9258]"
+                                    >
+                                        <li class="pb-2 text-justify">
+                                            Estudios de Impacto Ambiental
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Declaraciones de Impacto Ambiental.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Análisis y Consultas de Pertinencia.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Tramitación ambiental de proyectos
+                                            en el SEIA.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Líneas de Base.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Permisos Ambientales Sectoriales.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Evaluación de Impactos.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Factibilidad ambiental de proyectos.
+                                        </li>
+                                        <li class="pb-2 text-justify">
+                                            Litigación ante los Tribunales
+                                            ambientales.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Caja 3 -->
+                                <div class="p-4 relative">
+                                    <img
+                                        src="./assets/images/realistic-water-drop-with-ecosystem.jpg"
+                                        class="rounded-lg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -524,11 +650,7 @@
 
             <div class="grid m-auto justify-center mt-10">
                 <div>
-                    <img
-                        src="./assets/images/sustentable-sm.png"
-                        class="mb-4"
-                        alt=""
-                    />
+                    <img src="./assets/images/sustentable-sm.png" alt="" />
                 </div>
             </div>
         </section>
@@ -547,28 +669,12 @@
                     <p
                         class="lg:w-5/5 mx-auto leading-relaxed text-xl pt-8 text-justify"
                     >
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        In similique ab eaque quibusdam! Nihil minus eius
-                        deleniti doloremque! Aspernatur rem voluptatem saepe
-                        unde quas perferendis hic, sit nulla officia tempore?
-                        Necessitatibus iure consequuntur velit aliquam delectus
-                        facilis facere suscipit veniam, illum enim voluptates
-                        quidem nihil incidunt aspernatur inventore sequi neque
-                        quis porro? Expedita fugiat necessitatibus esse, dicta
-                        deserunt quis exercitationem! Eos exercitationem aliquid
-                        illo et voluptatum odit, dolor debitis nemo, saepe
-                        temporibus ea repellendus ducimus cumque. Reprehenderit
-                        aliquam fuga temporibus labore alias perferendis tenetur
-                        exercitationem delectus, molestias doloribus dignissimos
-                        aliquid! Magnam a ullam delectus dignissimos quam cumque
-                        libero facere fugit, earum impedit corrupti est ut
-                        blanditiis minima quia id vero distinctio quasi
-                        quibusdam. Autem inventore in minima eos ratione!
-                        Reprehenderit! Qui non, voluptatum facere reprehenderit
-                        voluptatibus iste quibusdam ab minus mollitia, nihil
-                        delectus similique commodi? Quibusdam odit, autem,
-                        repellendus atque possimus, quidem saepe cum
-                        exercitationem enim totam optio sequi suscipit.
+                        Nuestro equipo de abogados trabaja de forma organizada,
+                        con el objetivo de mejorar cada propuesta de valor y dar
+                        una respuesta específica, o coordinada como estudio, a
+                        las necesidades de cada cliente. Nuestro objetivo es ser
+                        un aliado de confianza con quienes recurren a nosotros y
+                        dar solución rápida y efectiva a sus conflictos.
                     </p>
                 </div>
 
@@ -589,7 +695,7 @@
                                 <h3
                                     class="text-white text-2xl md:text-xl font-normal mb-1"
                                 >
-                                    Nicolás Suazo
+                                    Nicolás Suazo Contreras
                                 </h3>
                                 <h4
                                     class="text-white text-lg md:text-base font-light mb-4"
@@ -656,7 +762,7 @@
 
                                 <button
                                     class="px-4 py-2 rounded-lg bg-gray-300 text-sky-900 hover:text-slate-200 hover:bg-sky-900 duration-300"
-                                    onclick="openModal()"
+                                    onclick="openModalNicolasSuazo()"
                                 >
                                     Ver Perfíl
                                 </button>
@@ -668,7 +774,7 @@
                         class="shadow-lg rounded-lg relative overflow-hidden group"
                     >
                         <img
-                            src="./assets/images/business-8053384_1280.jpg"
+                            src="./assets/images/jose_manuel_henriquez.png"
                             class="rounded-lg"
                             alt=""
                         />
@@ -679,429 +785,17 @@
                                 <h3
                                     class="text-white text-2xl md:text-xl font-normal mb-1"
                                 >
-                                    Nombre
+                                    José Manuel Henriquez García Huidobro
                                 </h3>
                                 <h4
                                     class="text-white text-lg md:text-base font-light mb-4"
                                 >
-                                    Cargo
+                                    Abogado
                                 </h4>
-
-                                <!-- <ul class="pb-4">
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="18"
-                                                height="18"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M2 5.5V3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5ZM0 10H5V12H0V10ZM0 15H8V17H0V15Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="18"
-                                                height="18"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="16"
-                                                height="16"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul> -->
 
                                 <button
                                     class="px-4 py-2 rounded-lg bg-gray-300 text-sky-900 hover:text-slate-200 hover:bg-sky-900 duration-300"
-                                >
-                                    Ver Perfíl
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div
-                        class="shadow-lg rounded-lg relative overflow-hidden group"
-                    >
-                        <img
-                            src="./assets/images/business-8053384_1280.jpg"
-                            class="rounded-lg"
-                            alt=""
-                        />
-                        <div
-                            class="absolute bg-[#2b3c56] bg-opacity-80 translate-y-full rounded-lg top-0 left-0 w-full h-full flex items-start pb-10 justify-center xs:group-hover:translate-y-[53%] sm:group-hover:translate-y-[70%] md:group-hover:translate-y-[45%] lg:group-hover:translate-y-[64%] xl:group-hover:translate-y-[60%] duration-500"
-                        >
-                            <div class="text-center pt-6 md:pt-4">
-                                <h3
-                                    class="text-white text-2xl md:text-xl font-normal mb-1"
-                                >
-                                    Nombre
-                                </h3>
-                                <h4
-                                    class="text-white text-lg md:text-base font-light mb-4"
-                                >
-                                    Cargo
-                                </h4>
-
-                                <!-- <ul class="pb-4">
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="18"
-                                                height="18"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M2 5.5V3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5ZM0 10H5V12H0V10ZM0 15H8V17H0V15Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="18"
-                                                height="18"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="16"
-                                                height="16"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul> -->
-
-                                <button
-                                    class="px-4 py-2 rounded-lg bg-gray-300 text-sky-900 hover:text-slate-200 hover:bg-sky-900 duration-300"
-                                >
-                                    Ver Perfíl
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div
-                        class="shadow-lg rounded-lg relative overflow-hidden group"
-                    >
-                        <img
-                            src="./assets/images/business-8053384_1280.jpg"
-                            class="rounded-lg"
-                            alt=""
-                        />
-                        <div
-                            class="absolute bg-[#2b3c56] bg-opacity-80 translate-y-full rounded-lg top-0 left-0 w-full h-full flex items-start pb-10 justify-center xs:group-hover:translate-y-[53%] sm:group-hover:translate-y-[70%] md:group-hover:translate-y-[45%] lg:group-hover:translate-y-[64%] xl:group-hover:translate-y-[60%] duration-500"
-                        >
-                            <div class="text-center pt-6 md:pt-4">
-                                <h3
-                                    class="text-white text-2xl md:text-xl font-normal mb-1"
-                                >
-                                    Nombre
-                                </h3>
-                                <h4
-                                    class="text-white text-lg md:text-base font-light mb-4"
-                                >
-                                    Cargo
-                                </h4>
-
-                                <!-- <ul class="pb-4">
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="18"
-                                                height="18"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M2 5.5V3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5ZM0 10H5V12H0V10ZM0 15H8V17H0V15Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="18"
-                                                height="18"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="16"
-                                                height="16"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul> -->
-
-                                <button
-                                    class="px-4 py-2 rounded-lg bg-gray-300 text-sky-900 hover:text-slate-200 hover:bg-sky-900 duration-300"
-                                >
-                                    Ver Perfíl
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div
-                        class="shadow-lg rounded-lg relative overflow-hidden group"
-                    >
-                        <img
-                            src="./assets/images/business-8053384_1280.jpg"
-                            class="rounded-lg"
-                            alt=""
-                        />
-                        <div
-                            class="absolute bg-[#2b3c56] bg-opacity-80 translate-y-full rounded-lg top-0 left-0 w-full h-full flex items-start pb-10 justify-center xs:group-hover:translate-y-[53%] sm:group-hover:translate-y-[70%] md:group-hover:translate-y-[45%] lg:group-hover:translate-y-[64%] xl:group-hover:translate-y-[60%] duration-500"
-                        >
-                            <div class="text-center pt-6 md:pt-4">
-                                <h3
-                                    class="text-white text-2xl md:text-xl font-normal mb-1"
-                                >
-                                    Nombre
-                                </h3>
-                                <h4
-                                    class="text-white text-lg md:text-base font-light mb-4"
-                                >
-                                    Cargo
-                                </h4>
-
-                                <!-- <ul class="pb-4">
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="18"
-                                                height="18"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M2 5.5V3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5ZM0 10H5V12H0V10ZM0 15H8V17H0V15Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="18"
-                                                height="18"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="16"
-                                                height="16"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul> -->
-
-                                <button
-                                    class="px-4 py-2 rounded-lg bg-gray-300 text-sky-900 hover:text-slate-200 hover:bg-sky-900 duration-300"
-                                >
-                                    Ver Perfíl
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div
-                        class="shadow-lg rounded-lg relative overflow-hidden group"
-                    >
-                        <img
-                            src="./assets/images/business-8053384_1280.jpg"
-                            class="rounded-lg"
-                            alt=""
-                        />
-                        <div
-                            class="absolute bg-[#2b3c56] bg-opacity-80 translate-y-full rounded-lg top-0 left-0 w-full h-full flex items-start pb-10 justify-center xs:group-hover:translate-y-[53%] sm:group-hover:translate-y-[70%] md:group-hover:translate-y-[45%] lg:group-hover:translate-y-[64%] xl:group-hover:translate-y-[60%] duration-500"
-                        >
-                            <div class="text-center pt-6 md:pt-4">
-                                <h3
-                                    class="text-white text-2xl md:text-xl font-normal mb-1"
-                                >
-                                    Nombre
-                                </h3>
-                                <h4
-                                    class="text-white text-lg md:text-base font-light mb-4"
-                                >
-                                    Cargo
-                                </h4>
-
-                                <!-- <ul class="pb-4">
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="18"
-                                                height="18"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M2 5.5V3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5ZM0 10H5V12H0V10ZM0 15H8V17H0V15Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="18"
-                                                height="18"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="inline-block mx-3">
-                                        <a
-                                            href=""
-                                            class="text-white hover:text-gray-900 duration-300"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24"
-                                                width="16"
-                                                height="16"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul> -->
-
-                                <button
-                                    class="px-4 py-2 rounded-lg bg-gray-300 text-sky-900 hover:text-slate-200 hover:bg-sky-900 duration-300"
+                                    onclick="openModalJoseManuel()"
                                 >
                                     Ver Perfíl
                                 </button>
@@ -1242,7 +936,7 @@
 
         <!-- Modal -->
         <div
-            id="modal"
+            id="modalNS"
             class="fixed inset-0 z-50 hidden flex items-end md:items-center justify-center bg-black bg-opacity-50"
         >
             <div
@@ -1282,7 +976,7 @@
                                     class="rounded-full object-cover object-center mx-auto w-32 h-32 mb-4"
                                 />
                                 <h2 class="text-2xl font-bold text-[#2A3C56]">
-                                    Nicolás Suazo
+                                    Nicolás Suazo Contreras
                                 </h2>
                                 <p class="text-gray-600">Abogado</p>
                             </div>
@@ -1307,7 +1001,7 @@
                                     </svg>
                                 </p>
                                 <p class="text-gray-600 pb-2">
-                                    nicolás.suazo@inscripcionaguas.cl
+                                    <a href="mailto:nicolás.suazo@inscripcionaguas.cl">nicolás.suazo@inscripcionaguas.cl</a>
                                 </p>
                                 <p class="text-[#2A3C56]">
                                     <svg
@@ -1323,7 +1017,7 @@
                                     </svg>
                                 </p>
                                 <p class="text-gray-600 pb-2">
-                                    +56 9 9999 9999
+                                    <a href="tel:+56974761777">+56 9 7476 1777</a>
                                 </p>
                                 <p class="text-[#2A3C56]">
                                     <svg
@@ -1338,8 +1032,8 @@
                                         ></path>
                                     </svg>
                                 </p>
-                                <p class="text-gray-600 pb-2">
-                                    linkedin.com/in/johndoe
+                                <p class="text-gray-600 pb-2 max-w-16">
+                                    <a href="https://www.linkedin.com/in/nicolás-suazo-contreras-ab8b3415" target="_blank">https://www.linkedin.com/in/nicolás-suazo-contreras-ab8b3415</a>
                                 </p>
                             </div>
 
@@ -1425,7 +1119,9 @@
                                 </div>
 
                                 <div class="mt-4">
-                                    <h4 class="text-lg font-semibold text-[#2A3C56]">
+                                    <h4
+                                        class="text-lg font-semibold text-[#2A3C56]"
+                                    >
                                         Formación
                                     </h4>
                                     <!-- <p class="text-sm text-gray-600">
@@ -1471,14 +1167,247 @@
                                         materias:
                                     </p>
 
-                                    <ol class="text-left list-disc marker:text-[#2A3C56] pt-6 pl-6">
+                                    <ol
+                                        class="text-left list-disc marker:text-[#2A3C56] pt-6 pl-6"
+                                    >
                                         <li>Derechos de Aguas.</li>
                                         <li>Medioambiente.</li>
-                                        <li>Acciones especiales (contenciosas administrativas).</li>
-                                        <li>Juicios ordinarios y especiales.</li>
-                                        <li>Alegatos ante la Tercera Sala Constitucional de la Corte Suprema y ante el Tribunal Constitucional.</li>
-                                        <li>Defensas en procedimientos sancionatorios.</li>
+                                        <li>
+                                            Acciones especiales (contenciosas
+                                            administrativas).
+                                        </li>
+                                        <li>
+                                            Juicios ordinarios y especiales.
+                                        </li>
+                                        <li>
+                                            Alegatos ante la Tercera Sala
+                                            Constitucional de la Corte Suprema y
+                                            ante el Tribunal Constitucional.
+                                        </li>
+                                        <li>
+                                            Defensas en procedimientos
+                                            sancionatorios.
+                                        </li>
                                     </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            id="modalJM"
+            class="fixed inset-0 z-50 hidden flex items-end md:items-center justify-center bg-black bg-opacity-50"
+        >
+            <div
+                class="relative w-full max-w-4xl mx-auto bg-white rounded-t-lg md:rounded-lg shadow-lg overflow-hidden animate-slide-up max-h-screen flex flex-col p-6"
+            >
+                <button
+                    class="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
+                    onclick="closeModalJM()"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12"
+                        />
+                    </svg>
+                </button>
+
+                <div class="overflow-y-auto p-6">
+                    <!-- Plantilla de currículum -->
+                    <div
+                        class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6"
+                    >
+                        <!-- Columna de información personal -->
+                        <div class="w-full md:w-1/3 bg-gray-100 p-4 rounded-lg">
+                            <div class="text-center">
+                                <img
+                                    src="./assets/images/jose_manuel_henriquez.png"
+                                    alt="Foto de perfil"
+                                    class="rounded-full object-cover object-center mx-auto w-32 h-32 mb-4"
+                                />
+                                <h2 class="text-2xl font-bold text-[#2A3C56]">
+                                    José Manuel Henriquez García Huidobro
+                                </h2>
+                                <p class="text-gray-600">Abogado</p>
+                            </div>
+
+                            <div class="mt-6">
+                                <h3
+                                    class="text-lg font-semibold text-gray-700 pb-4"
+                                >
+                                    Contacto
+                                </h3>
+                                <p class="text-[#2A3C56]">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                        width="20"
+                                        height="20"
+                                    >
+                                        <path
+                                            d="M21 3C21.5523 3 22 3.44772 22 4V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5V4C2 3.44772 2.44772 3 3 3H21ZM8 15V17H0V15H8ZM5 10V12H0V10H5ZM19.5659 5H4.43414L12 11.8093L19.5659 5Z"
+                                        ></path>
+                                    </svg>
+                                </p>
+                                <p class="text-gray-600 pb-2">
+                                    jose.henriquez@inscripcionaguas.cl
+                                </p>
+                                <p class="text-[#2A3C56]">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        width="20"
+                                        height="20"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            d="M9.36556 10.6821C10.302 12.3288 11.6712 13.698 13.3179 14.6344L14.2024 13.3961C14.4965 12.9845 15.0516 12.8573 15.4956 13.0998C16.9024 13.8683 18.4571 14.3353 20.0789 14.4637C20.599 14.5049 21 14.9389 21 15.4606V19.9234C21 20.4361 20.6122 20.8657 20.1022 20.9181C19.5723 20.9726 19.0377 21 18.5 21C9.93959 21 3 14.0604 3 5.5C3 4.96227 3.02742 4.42771 3.08189 3.89776C3.1343 3.38775 3.56394 3 4.07665 3H8.53942C9.0611 3 9.49513 3.40104 9.5363 3.92109C9.66467 5.54288 10.1317 7.09764 10.9002 8.50444C11.1427 8.9484 11.0155 9.50354 10.6039 9.79757L9.36556 10.6821ZM6.84425 10.0252L8.7442 8.66809C8.20547 7.50514 7.83628 6.27183 7.64727 5H5.00907C5.00303 5.16632 5 5.333 5 5.5C5 12.9558 11.0442 19 18.5 19C18.667 19 18.8337 18.997 19 18.9909V16.3527C17.7282 16.1637 16.4949 15.7945 15.3319 15.2558L13.9748 17.1558C13.4258 16.9425 12.8956 16.6915 12.3874 16.4061L12.3293 16.373C10.3697 15.2587 8.74134 13.6303 7.627 11.6707L7.59394 11.6126C7.30849 11.1044 7.05754 10.5742 6.84425 10.0252Z"
+                                        ></path>
+                                    </svg>
+                                </p>
+                                <p class="text-gray-600 pb-2">
+                                    +56 9 9999 9999
+                                </p>
+                                <p class="text-[#2A3C56]">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        width="20"
+                                        height="20"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z"
+                                        ></path>
+                                    </svg>
+                                </p>
+                                <p class="text-gray-600 pb-2">
+                                    linkedin.com/in/johndoe
+                                </p>
+                            </div>
+
+                            <div class="mt-6">
+                                <h3 class="text-lg font-semibold text-gray-700">
+                                    <!-- Habilidades -->
+                                </h3>
+                                <ul class="list-disc list-inside text-gray-600">
+                                    <!-- <li>HTML / CSS / JavaScript</li>
+                                    <li>React.js / Vue.js</li>
+                                    <li>Node.js / Express</li>
+                                    <li>MySQL / MongoDB</li> -->
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Columna de experiencia y educación -->
+                        <div class="w-full md:w-2/3">
+                            <!-- Experiencia -->
+                            <div>
+                                <h3
+                                    class="text-lg font-semibold text-[#2A3C56]"
+                                >
+                                    Experiencia
+                                </h3>
+
+                                <div class="mt-4">
+                                    <!-- <h4 class="font-bold text-gray-800">
+                                        Se desempeño por más de 8 años en el sector público, Municipalidades y Dirección General de Aguas, y experiencia por más de 6 años en el sector privado asesorando a principales empresas del país, esto le ha permitido un conocimiento acabado de la normativa ambiental, derechos de aguas, administrativo, municipal y recursos naturales.
+                                    </h4> -->
+                                    <p class="text-gray-600">
+                                        Trabajó por más de 10 años en el
+                                        Ministerio de Economía, Fomento y
+                                        Turismo a cargo de la regulación y
+                                        supervisión de empresas cooperativas y
+                                        asociaciones gremiales, desempeñándose
+                                        como jefe de división, jefe de área
+                                        legal, coordinador de equipos y asesor.
+                                    </p>
+                                    <p class="mt-2 text-gray-700">
+                                        Durante esta etapa participó en
+                                        distintas instancias legislativas y de
+                                        elaboración de normativa, diseño de
+                                        políticas públicas y relacionamiento con
+                                        grupos de interés del sector público y
+                                        privado.
+                                    </p>
+                                    <p class="mt-2 text-gray-700">
+                                        A partir de 2022 se ha dedicado al
+                                        ejercicio libre de la profesión
+                                        asesorando empresas, cooperativas y
+                                        gremios de los más variados rubros,
+                                        principalmente del sector agrícola y de
+                                        servicios financieros.
+                                    </p>
+                                    <p class="mt-2 text-gray-700">
+                                        Es director de la Compañía Pisquera de
+                                        Chile S.A. y de la Cooperativa de Ahorro
+                                        y Crédito Finagra Limitada.
+                                    </p>
+                                </div>
+
+                                <div class="mt-4">
+                                    <h4
+                                        class="text-lg font-semibold text-[#2A3C56]"
+                                    >
+                                        Formación
+                                    </h4>
+                                    <!-- <p class="text-sm text-gray-600">
+                                        Empresa ABC - Julio 2018 - Diciembre
+                                        2019
+                                    </p> -->
+                                    <p class="mt-2 text-gray-700">
+                                        Sus estudios de derecho los realizó en
+                                        la Universidad Andrés Bello, jurando
+                                        ante la Excma. Corte Suprema en 2009.
+                                        Tiene el grado de Magíster en Derecho
+                                        Regulatorio (LLM) de la Pontificia
+                                        Universidad Católica de Chile; Diplomado
+                                        en Tributación Corporativa e
+                                        Internacional de la Universidad Alberto
+                                        Hurtado; contando con distintos cursos
+                                        de especialización en Derecho
+                                        Administrativo.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Educación -->
+                            <div class="mt-6">
+                                <h3
+                                    class="text-lg font-semibold text-[#2A3C56]"
+                                >
+                                    Experiencia legislativa
+                                </h3>
+
+                                <div class="mt-4">
+                                    <!-- <h4 class="font-bold text-gray-800">
+                                        Ingeniería en Sistemas
+                                    </h4>
+                                    <p class="text-sm text-gray-600">
+                                        Universidad ABC - 2014 - 2018
+                                    </p> -->
+                                    <p class="mt-2 text-gray-700">
+                                        Durante su paso por el Ministerio de
+                                        Economía, Fomento y Turismo fue parte
+                                        del equipo de trabajo que participó en
+                                        la discusión y tramitación de la actual
+                                        Ley General de Cooperativas y de la Ley
+                                        sobre Servicios Sanitarios Rurales, así
+                                        como de los reglamentos de dichas leyes.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -1555,19 +1484,38 @@
                 }px)`;
             }
 
-            // Modal
+            // Modal Nicolas Suazo
 
-            function openModal() {
-                document.getElementById("modal").classList.remove("hidden");
+            function openModalNicolasSuazo() {
+                document.getElementById("modalNS").classList.remove("hidden");
             }
 
             function closeModal() {
-                document.getElementById("modal").classList.add("hidden");
+                document.getElementById("modalNS").classList.add("hidden");
             }
 
             // Evitar el cierre del modal al hacer clic fuera de él
             document
-                .getElementById("modal")
+                .getElementById("modalNS")
+                .addEventListener("click", function (event) {
+                    if (event.target === this) {
+                        event.stopPropagation();
+                    }
+                });
+
+            // Modal José Manuel
+
+            function openModalJoseManuel() {
+                document.getElementById("modalJM").classList.remove("hidden");
+            }
+
+            function closeModalJM() {
+                document.getElementById("modalJM").classList.add("hidden");
+            }
+
+            // Evitar el cierre del modal al hacer clic fuera de él
+            document
+                .getElementById("modalJM")
                 .addEventListener("click", function (event) {
                     if (event.target === this) {
                         event.stopPropagation();
