@@ -99,7 +99,18 @@
         />
         <meta name="theme-color" content="#ffffff" />
     </head>
-    <body class="bg-slate-200">
+    <body class="bg-slate-200 loading">
+        <div
+            id="loading-overlay"
+            class="fixed inset-0 flex items-center justify-center bg-white z-50 transition-opacity duration-500"
+        >
+            <img
+                src="./assets/favicon/android-icon-144x144.png"
+                alt="Logo"
+                class="w-48 h-48 animate-bounce"
+            />
+        </div>
+
         <header class="sticky top-0 z-50 sticky">
             <!-- Navbar Sticky -->
             <nav
@@ -233,7 +244,7 @@
                             país.
                         </p>
                     </div>
-                    <div class="p-4 rounded-xl">
+                    <div class="p-4 pt-2 rounded-xl">
                         <img
                             src="./assets/images/minimalist-office-interior-design.jpg"
                             alt="Imagen Estudio"
@@ -892,7 +903,9 @@
                                         Ambiental publica columna de opinión en
                                         El Mercurio Legal</span
                                     >
-                                    <span class="text-xs text-slate-500">Facultad de Derecho UDD</span>
+                                    <span class="text-xs text-slate-500"
+                                        >Facultad de Derecho UDD</span
+                                    >
                                 </h3>
                                 <div
                                     class="prose prose-slate prose-sm text-slate-700 text-justify font-normal pt-4"

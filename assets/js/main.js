@@ -1,3 +1,16 @@
+window.addEventListener("load", function () {
+    // Iniciar el desvanecimiento del logo
+    document.getElementById("loading-overlay").classList.add("opacity-0");
+
+    // Mostrar el contenido después de una breve espera para la transición
+    setTimeout(function () {
+        document.getElementById("loading-overlay").style.display = "none";
+        document
+            .querySelector(".content")
+            .classList.remove("opacity-0", "hidden");
+    }, 500); // El tiempo de espera debe coincidir con la duración de la transición
+});
+
 document.getElementById("menu-btn").addEventListener("click", function () {
     const menu = document.getElementById("mobile-menu");
     menu.classList.toggle("hidden");
